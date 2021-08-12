@@ -34,8 +34,6 @@ def play_game():
 	while guess != answer:
 		guess = int(input("Make a guess: "))
 		lives = check_answer(guess, answer, lives)
-
-
-
+		
 if __name__ == "__main__":
 	play_game()	
